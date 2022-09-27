@@ -1,4 +1,4 @@
-alert("it's working!");
+//alert("it's working!");
 
 if(1 === 2)
 {
@@ -51,3 +51,50 @@ if(password.indexOf(' ') === -1)
 else{
     console.log("Invalid password, cannot containe space.");
 }
+
+
+
+let day = 9;
+
+switch(day){
+    case 1:
+        console.log('Monday');
+        break;
+    case 2:
+        console.log('TUESDAY');
+        break;
+    case 3:
+        console.log('WEDNESDAY');
+        break;
+    case 4:
+        console.log('THURSDAY');
+        break;
+    case 5:
+        console.log('FRIDAY');
+        break;
+    case 6:
+        console.log('SATURDAY');
+        break;
+    case 7:
+        console.log('SUNDAY');
+        break;
+        default:
+            console.log('WRONG DAY')
+            break;
+}
+
+
+
+let randomNum = 7;
+if(randomNum === 7){
+    console.log('Lucky');
+}else {
+    console.log('BAD!!');
+}
+
+randomNum === 7 ? console.log('LUCKYYYY') : console.log('BADDDD');
+
+let status = 'online';
+
+let color = status === 'offline' ? 'red' : 'green';
+console.log(color);

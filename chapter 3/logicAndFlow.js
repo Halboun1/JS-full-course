@@ -37,3 +37,12 @@
 '&&'                // takes two separate boolean expression and both must be true.
 '||'                // takes two separate boolean expression and 1 of them must be true.
 '!'                 // negates the result
+
+
+'&&' /*operator comes before*/,'||'
+
+
+/* ========== TERNARY OPERATOR ========== */
+'condition ?'
+'expIfTrue: '
+'expIfFalse '
